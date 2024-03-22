@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        .column {
+            width: 50%;
+            float: left;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        .column img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Product Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="column">
+                <img src="photo.webp" alt="Product Image">
+            </div>
+            <div class="column">
+                <h2>Discover Our Amazing Product</h2>
+                <p>Nothing Phone (2a) 5G (Black, 256 GB)  (8 GB RAM)</p>
+                <a href="#pricing" class="btn">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="column">
+                <h3>Feature 1</h3>
+                <p>
+8 GB RAM | 256 GB ROM.</p>
+            </div>
+            <div class="column">
+                <h3>Feature 2</h3>
+                <p>17.02 cm (6.7 inch) Full HD+ Display.</p>
+            </div>
+            <div class="column">
+                <h3>Feature 3</h3>
+                <p>50MP (OIS) + 50MP | 32MP Front Camera</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="container">
+            <h2>Pricing</h2>
+            <div class="column">
+                <h3>Basic</h3>
+                <p>$10/month</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="column">
+                <h3>Pro</h3>
+                <p>$20/month</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+            <div class="column">
+                <h3>Premium</h3>
+                <p>$30/month</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Product Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
